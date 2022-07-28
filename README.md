@@ -1,5 +1,83 @@
 # blockchain-pathway-coursework
 For submitting assignments for the Blockchain Pathway
+# Module 4 Challenge
+### Step 1: Create the KaseiCoin Token Contract (10 points)
+Code the KaseiCoin contract. (5 points)
+Take a screenshot of the successful compilation of the contract, and add it to the Evaluation Evidence section of the README.md file for your Challenge repository. (5 points)
+
+*Completed*
+
+### Step 2: Create the KaseiCoin Crowdsale Contract (15 points)
+Have your KaseiCoinCrowdsale contract inherit the OpenZeppelin Crowdsale and MintedCrowdsale contracts. (5 points)
+Add the rate, wallet, and token parameters to your crowdsale contract’s constructor. (5 points)
+Take a screenshot of the successful compilation of the contract, and add it to the Evaluation Evidence section of the README.md file for your Challenge repository. (5 points)
+
+*Completed*
+### Step 3: Create the KaseiCoin Deployer Contract (35 points)
+Add variables to the KaseiCoinCrowdsaleDeployer contract that can store the KaseiCoin and KaseiCoinCrowdsale contract addresses. (5 points)
+Add the name, symbol, and wallet parameters to the KaseiCoinCrowdsaleDeployer contract’s constructor. (10 points)
+Add the required code within the constructor’s body. (15 points)
+Take a screenshot of the successful compilation of the contract, and add it to the Evaluation Evidence section of the README.md file for your Challenge repository. (5 points)
+
+*Completed*
+### Step 4: Deploy the Crowdsale to a Local Blockchain (30 points)
+Record a short video or take screenshots as evidence of your deployed crowdsale contract. The video or screenshots should illustrate the following: (30 points)
+Deployment of the contract to a local blockchain with Remix, MetaMask, and Ganache.
+Using test accounts to buy new tokens from the crowdsale and then checking the balances associated with the test accounts.
+After purchasing tokens with test accounts, viewing the total supply of minted tokens and the amount of wei that has been raised by the crowdsale.
+
+*Completed*
+
+IMPORTANT
+If you provide screenshots, add them to the README.md file of your Challenge repository. The screenshots should provide a guide that someone else could use to compile the contracts and add the KaseiCoin token to MetaMask.
+
+Coding Conventions and Formatting (10 points)
+
+*Completed*
+
+To receive all points, you must:
+Place imports at the top of the file. (3 points)
+Name functions and variables using mixedCase, as stated in the Solidity Language Style Guide (Links to an external site.). (2 points)
+Follow DRY (Don't Repeat Yourself) principles, creating maintainable and reusable code. (3 points)
+Use concise logic and creative engineering where possible. (2 points)
+
+*Completed*
+
+# Evaluation Evidence
+In order for your submission to be graded, you must create a section in the README.md file of your GitHub repository called Evaluation Evidence, where you will share screenshots of your work.
+## Compile Contracts
+
+### 01
+[KaseiCoin Contract Compiled](/Evaluation_Evidence/01-kasei_coin_compiled.png)
+### 02
+[KaseiCoinCrowdsale Contract Compiled](/Evaluation_Evidence/02-kasei_coin_crowdsale_compiled.png)
+### 03
+[KaseiCoinCrowdsale Contract Compiled](/Evaluation_Evidence/03-kasei_coin_crowdsale_deployer_compiled.png)
+
+## Add Network to Metamask from Ganache
+### 01
+[Open Metamask and in the Network Pulldown Click Add Network](/Evaluation_Evidence/04-1-add_network_ganache_metamask.png)
+### 02
+[Open Ganache and Use the URL as the New RPC](/Evaluation_Evidence/04-2-add_network_ganache_metamask.png)
+### 03
+[Use Chain ID of "1337" and Currency Symbol "ETH"](/Evaluation_Evidence/04-3-add_network_ganache_metamask.png)
+### 04
+[Test By Changing Remix Env to Injected Provider - Metamask](/Evaluation_Evidence/04-4-add_network_ganache_metamask.png)
+
+## Deploy Contract
+### 01
+[Deploy](/Evaluation_Evidence/05-1-kasei_coin_contract_deployed.png)
+### 02
+[Local Blockchain Transaction](/Evaluation_Evidence/06-1-buying_kasei_coin_with_eth.png)
+### 03
+[Able To Buy and Send](/Evaluation_Evidence/06-2-sending_kasei_from_account.png)
+### 04
+[Account 1 Balance](/Evaluation_Evidence/06-3-balance_of_account1.png)
+### 05
+[Account 2 Balance](/Evaluation_Evidence/06-4-balance_of_account1.png)
+
+
+# ***************************************************************************************
 
 
 # Module 3 Challenge
@@ -48,7 +126,7 @@ Test the withdrawal functionality of the smart contract. Capture a screenshot of
 #
 [Full Deploy](/Execution_Results/07-full-deploy_pic.png)
 
-# ********************************************************************************************************
+# ***************************************************************************************
 
 # Module 2 Challenge
  Requirements
@@ -107,7 +185,7 @@ Be well commented with concise, relevant notes that other developers can underst
 # Log Pic
 [log](trans_log.png)
 
-# ********************************************************************************************************
+# ***************************************************************************************
 
 # Module 1 Challenge
  Requirements
